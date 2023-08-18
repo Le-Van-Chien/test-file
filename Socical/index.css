@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Peralta&family=Satisfy&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Peralta&display=swap'); */
+/* header */
+
+#header{
+   
+    width: 1152px;
+    height: 55px;
+    margin-left: 10%;
+    /* line-height: 55px; */
+  
+}
+#header li{
+    display: inline-block;
+    align-items: center;
+    gap: 120px;
+}
+.socical p i{
+    font-size: 20px;
+    margin: 24px ;
+    width: 24px;
+    height: 24px;
+}
+li p {
+    color: #000;
+    font-family: 'Peralta', cursive;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+}
+
+.search{
+    width: 470px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #828282;
+    margin-top: 16px;
+    line-height: 40px;
+    margin-left: 120px;
+}
+.search input{
+    width: 90%;
+    height: 80%;
+    border-radius: 8px;
+    border-style: none;
+    outline: none;
+    margin-left: 9px;
+    font-family: 'Open Sans', sans-serif;;
+}
+.search i{
+    margin-left: 9px;
+    margin-top: 9px;
+}
+.icon{
+    margin-left: 120px;
+}
+.icon i{
+    margin-right: 24px;
+    font-size: 24px;
+}
+li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transform: translateY( 12px);
+    object-fit: cover;
+}
+
+/* content */
+
+
+
+ .insence{
+    margin-left: 12%;
+    margin-top: 20px;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 36px;
+}
+.insence i{
+    font-size: 20px;
+    transform: translateY( -5px);
+    margin-right: 24px;
+} 
+/* content-left */
+
+#container{
+    margin-left: 7%;
+}
+#container .main{
+    float: left;
+}
+.content{
+    background-color: #FFD38A;
+    width: 475px;
+    height: 296px;
+    margin-left: 12%;
+    margin-top: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.06);
+} 
+
+.content-left
+{
+    float: left;
+    width: 238.25px;
+    height: 296px;
+    background-color: #E2E2E2;
+    border-radius: 16px;
+}
+ .content-left img{
+    align-self: stretch;
+    width: 206.25px;
+    height: 200px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    margin-left: 16px;
+    object-fit: cover;
+}
+.content-left li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+.content-left li i{
+    margin-right: 28px;
+} 
+
+#icon-left i{
+    margin: -5px 10px 8px 8px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding: 8px 0 0 0;
+    border-radius: 100%;
+    color: white;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+
+/* content-right */
+
+.content-right{
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+  
+}
+.content-right li{
+    list-style-type: none;
+}
+.content-right #icon {
+    margin-top: 56px;
+}
+#icon i{
+    margin: -5px 10px 8px 8px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px 0 0 5px;
+    border-radius: 100%;
+}
+.content-right h2{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 36px; 
+    text-transform: capitalize;
+}
+.content-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px; 
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.fa-sloid i{
+    margin-right: 20px;
+}
+.ux-ui{
+    font-weight: 600;
+} 
+
+/*  */
+
+
+/* content-left-1 */
+
+
+ .content-2{
+     background-color: #ABE1FF;
+     width: 475px;
+     height: 296px;
+     margin-top: 40px;
+     margin-left: 105px;
+     border-radius: 16px;
+     box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.06);
+ } 
+ 
+
+ /* content-right */
+ 
+ .content-right{
+     float: left;
+     margin-top: 30px;
+     margin-left: 15px;
+   
+ }
+ .content-right li{
+     list-style-type: none;
+ }
+ .content-right #icon {
+     margin-top: 56px;
+ }
+ #icon i{
+     margin: -5px 10px 8px 8px;
+     font-size: 20px;
+     width: 30px;
+     height: 30px;
+     background-color: white;
+     padding: 5px 0 0 5px;
+     border-radius: 100%;
+ }
+ .content-right h2{
+     font-size: 36px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+     line-height: 36px; 
+     text-transform: capitalize;
+ }
+ .content-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px; 
+    text-transform: capitalize;
+    margin-top: 10px;
+ }
+ .fa-sloid i{
+     margin-right: 20px;
+ }
+ .ux-ui{
+     font-weight: 600;
+ } 
+ 

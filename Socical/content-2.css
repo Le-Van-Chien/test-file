@@ -1,0 +1,124 @@
+#container{
+    margin-left: 7%;
+}
+#container .main{
+   float: left;
+}
+.content-5{
+    background-color: #FFC5A0;
+    width: 475px;
+    height: 296px;
+    margin-left: 12%;
+    margin-top: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.06);
+} 
+
+
+/* content-right */
+
+.content-right{
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+  
+}
+.content-right li{
+    list-style-type: none;
+}
+.content-right #icon {
+    margin-top: 56px;
+}
+#icon-5 i{
+    margin: 41px 10px 8px 8px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px 0 0 5px;
+    border-radius: 100%;
+}
+.content-right h2{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 36px; 
+    text-transform: capitalize;
+}
+.content-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px; 
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.fa-sloid i{
+    margin-right: 20px;
+}
+.ux-ui{
+    font-weight: 600;
+} 
+
+/*  */
+
+
+/* content-left-1 */
+
+
+ .content-6{
+     background-color: #A5FF96;
+     width: 475px;
+     height: 296px;
+     margin-top: 40px;
+     margin-left: 105px;
+     border-radius: 16px;
+     box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.06);
+ } 
+ 
+ 
+ /* content-right */
+ 
+ .content-right{
+     float: left;
+     margin-top: 30px;
+     margin-left: 15px;
+   
+ }
+ .content-right li{
+     list-style-type: none;
+ }
+ .content-right #icon {
+     margin-top: 56px;
+ }
+ #icon-6 i{
+     margin: 75px 10px 8px 8px;
+     font-size: 20px;
+     width: 30px;
+     height: 30px;
+     background-color: white;
+     padding: 5px 0 0 5px;
+     border-radius: 100%;
+ }
+ .content-right h2{
+     font-size: 36px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+     line-height: 36px; 
+     text-transform: capitalize;
+ }
+ .content-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px; 
+    text-transform: capitalize;
+    margin-top: 10px;
+ }
+ .fa-sloid i{
+     margin-right: 20px;
+ }
+ .ux-ui{
+     font-weight: 600;
+ } 
+ 

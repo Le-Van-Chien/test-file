@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+.container{
+    width: 1000px;
+    margin-left: 135px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(250, 168, 153,0.5);
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.list-feature{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.feature{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgba(249, 159, 172, 0.5);
+    flex-basis: 19%;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.img{
+    width: 100px;
+    height: 130px;
+    text-align: center;
+    line-height: 100px;
+    background-color: yellow;
+    flex-basis: 49%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-1{
+    width: 330px;
+    height: 410px;
+    background-color: rgba(156, 255, 156,0.5);
+    line-height: 400px;
+    text-align: center;
+}
+
+.content-2-3{
+    flex-basis: 65%;
+    flex-direction: column;
+    display: flex;
+
+}
+.content-2{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(250, 168, 153,0.5);
+    line-height: 300px;
+    text-align: center;
+    flex: 3;
+    margin-bottom: 10px;
+}
+.content-3{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(254, 203, 109,0.5);
+    line-height: 100px;
+    text-align: center;
+    flex: 1;
+}
+</style>
+
+<body>
+<div class="container">
+    <div class="header">Header</div>
+
+    <div class="list-feature">
+
+        <div class="feature">feature 1</div>
+        <div class="feature">feature 2</div>
+        <div class="feature">feature 3</div>
+        <div class="feature">feature 4</div>
+        <div class="feature">feature 5</div>
+
+    </div>
+
+    <div class="list-feature">
+
+        <div class="feature">feature 6</div>
+        <div class="feature">feature 7</div>
+        <div class="feature">feature 8</div>
+        <div class="feature">feature 9</div>
+        <div class="feature">feature 10</div>
+
+    </div>
+
+    <div class="image">
+        <div class="img">image 1</div>
+        <div class="img">image 2</div>
+    </div>
+
+    <div class="image">
+        <div class="img">image 3</div>
+        <div class="img">image 4</div>
+    </div>
+
+    <div class="content">
+
+        <div class="content-1">Content-1</div>
+
+        <div class="content-2-3">
+                <div class="content-2">Content-2</div>
+                <div class="content-3">Content-3</div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
